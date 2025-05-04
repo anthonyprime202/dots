@@ -1,6 +1,6 @@
 {
   wm = "gnome"; # "plasma" "gnome"
-  username = "username";
+  username = "Username";
   fullname = "Full Name";
   email = "email";
   gitUser = "Github Username";
