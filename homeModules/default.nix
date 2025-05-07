@@ -10,12 +10,14 @@
     ./programs.nix
     ./spicetify.nix
     ./stylix.nix
+    ./desktop.nix
   ];
 
   git.enable = lib.mkDefault true;
   spicetify.enable = lib.mkDefault true;
   nvim.enable = lib.mkDefault true;
   zsh.enable = lib.mkDefault true;
+  tlauncher.enable = lib.mkDefault true;
 
   plasma.enable = (wm == "plasma");
   gnome.enable = (wm == "gnome");
