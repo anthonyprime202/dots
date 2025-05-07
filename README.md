@@ -34,7 +34,7 @@ cd dots
 nixos-generate-config --show-hardware-config > hosts/thinkbook/hardware-configuration.nix
 ```
 
-**Step 5:** Rename the `config.example.nix` file to `config.nix` and change the specified variables to what you want.
+**Step 5:** Update the contents of `config.nix` according to you.
 
 ```nix
 {
