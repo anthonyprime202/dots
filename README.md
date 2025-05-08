@@ -1,6 +1,6 @@
 # 😺 My Impurrfect NixOS Setup
 
-Here is my modular nixos setup, that I daily drive. You can use by following the instructions below, or just read it get some ideas. If you find something wrong please open an issue and help out if you want :)
+Here is my modular nixos setup, that I daily drive. You can use by following the instructions below, or just read it to get some ideas. If you find something wrong please open an issue and help out if you want :)
 
 ## 💼 Software Suite
 - [Zen Browser](https://zen-browser.app/): For browsing internet
@@ -9,6 +9,7 @@ Here is my modular nixos setup, that I daily drive. You can use by following the
 - [Waydroid](https://waydro.id/): For Android related development
 - [Vesktop](https://github.com/Vencord/Vesktop): Discord Client
 - [Zsh](https://www.zsh.org/): Shell Environment
+- [Gnome](https://www.gnome.org/): Desktop Environment
 
 The complete list of packages is in [`systemModule/packages.nix`](https://github.com/anthonyprime202/dots/blob/main/systemModules/packages.nix). 
 
