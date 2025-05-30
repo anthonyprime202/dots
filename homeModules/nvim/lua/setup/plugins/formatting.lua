@@ -19,6 +19,7 @@ return {
 			typescript = { "prettier" },
 			javascript = { "prettier" },
 			typescriptreact = { "prettier" },
+			javascriptreact = { "prettier" },
 			html = { "prettier" },
 			scss = { "prettier" },
 			css = { "prettier" },
