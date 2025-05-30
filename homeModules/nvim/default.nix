@@ -35,6 +35,9 @@
         typescript-language-server
         nodePackages.prettier
 
+        # Tailwind
+        tailwindcss-language-server
+
         # HTML / CSS
         emmet-language-server
         vscode-langservers-extracted
