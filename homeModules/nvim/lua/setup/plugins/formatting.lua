@@ -16,15 +16,15 @@ return {
 			cpp = { "clang-format" },
 
 			-- Web dev related file types
-			typescript = { "prettier" },
-			javascript = { "prettier" },
-			typescriptreact = { "prettier" },
-			javascriptreact = { "prettier" },
-			html = { "prettier" },
-			scss = { "prettier" },
-			css = { "prettier" },
+			typescript = { "prettierd" },
+			javascript = { "prettierd" },
+			typescriptreact = { "prettierd" },
+			javascriptreact = { "prettierd" },
+			html = { "prettierd" },
+			scss = { "prettierd" },
+			css = { "prettierd" },
 
-			json = { "prettier" },
+			json = { "prettierd" },
 		},
 	},
 }

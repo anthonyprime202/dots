@@ -1,4 +1,4 @@
-{ pkgs, lib, config, ... }: {
+{ upkgs, pkgs, lib, config, ... }: {
   options = {
     nvim.enable = lib.mkEnableOption "Enable Neovim";
   };
@@ -33,10 +33,11 @@
         # Typescript / Javascript
         typescript
         typescript-language-server
-        nodePackages.prettier
+        prettierd
 
         # Tailwind
-        tailwindcss-language-server
+        upkgs.tailwindcss-language-server
+
 
         # HTML / CSS
         emmet-language-server
