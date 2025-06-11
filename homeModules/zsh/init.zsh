@@ -27,3 +27,9 @@ zle -N zle-line-init
 
 echo -ne '\e[5 q' # For startup
 preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
+
+if [[ "$ZELLIJ" =~ '^[0-9]+$' ]] && [[ -f flake.nix ]] && [[ -z "$DEV" ]]; then
+  if command -v nix >/dev/null 2>&1; then
+    DEV=1 exec nix develop --command zsh
+  fi
+fi
