@@ -1,15 +1,10 @@
-{ upkgs, ... }: {
+{ ... }: {
 
   programs = {
     cava.enable = true; 
     yazi.enable = true;
     bat.enable = true;
     lsd.enable = true;
-
-    zellij = {
-      enable = true;
-      package = upkgs.zellij;
-    };
 
     starship = {
       enable = true;
