@@ -98,22 +98,26 @@ local servers = {
 }
 
 return {
-	"neovim/nvim-lspconfig",
-	dependencies = {
-		{
-			"j-hui/fidget.nvim",
-			opts = {
-				notification = {
-					window = {
-						winblend = 0,
+	{
+		"neovim/nvim-lspconfig",
+		dependencies = {
+			{
+				"j-hui/fidget.nvim",
+				opts = {
+					notification = {
+						window = {
+							winblend = 0,
+						},
 					},
 				},
 			},
 		},
-	},
 
-	config = function()
-		require("setup.autocmds").lsp()
-		handleServers(servers)
-	end,
+		config = function()
+			require("setup.autocmds").lsp()
+			handleServers(servers)
+		end,
+	},
+	-- For better typescript errors
+	{ "dmmulroy/ts-error-translator.nvim", opts = {} },
 }
