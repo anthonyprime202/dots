@@ -11,6 +11,7 @@
     ./spicetify.nix
     ./stylix.nix
     ./desktop.nix
+    ./zellij
   ];
 
   git.enable = lib.mkDefault true;
@@ -18,6 +19,7 @@
   nvim.enable = lib.mkDefault true;
   zsh.enable = lib.mkDefault true;
   minecraft.enable = lib.mkDefault true;
+  zellij.enable = lib.mkDefault true;
 
   plasma.enable = (wm == "plasma");
   gnome.enable = (wm == "gnome");
